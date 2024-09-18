@@ -83,3 +83,30 @@ video {
   width: 100px;
   align-items: center;
 }
+
+.section-4 {
+  width: 1698px;
+  height: 106px;
+  flex-shrink: 0;
+  background: #ebead2;
+  text-align: center;
+  margin: 5%;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75px; /* 150% */
+  letter-spacing: 0.313px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-4 .box {
+  width: 50%;
+}
+
+.section-5 {
+  display: flex;
+  justify-content: end;
+}
+
+.section-5 .box {
+}
