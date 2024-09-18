@@ -66,18 +66,20 @@ video {
   flex-shrink: 0;
   background: #ebead2;
   text-align: center;
-
+  gap: 30px;
   font-style: normal;
   font-weight: 700;
   line-height: 75px; /* 150% */
   letter-spacing: 0.313px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .section-3 .box {
   background-color: #fff;
   max-height: 70px;
-
+  width: 100px;
   align-items: center;
 }
